@@ -528,7 +528,7 @@ class TandemSourceApi:
             self.pumperId,
             start,
             end,
-            '&eventIds=%s' % eventIdsFilter if eventIdsFilter else ''
+            '&eventCodes=%s' % eventIdsFilter if eventIdsFilter else ''
         ), {})
 
     """
